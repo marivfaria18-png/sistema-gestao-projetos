@@ -1,9 +1,9 @@
 public class SistemaGestao {
     public static void main(String[] args) {
         // Criando usuários
-        Usuario admin = new Usuario("Ana", "12345678900", "ana@email.com", "Administrador", "ana", "123");
-        Usuario gerente = new Usuario("Carlos", "98765432100", "carlos@email.com", "Gerente", "carlos", "123");
-        Usuario colaborador = new Usuario("João", "55566677788", "joao@email.com", "Colaborador", "joao", "123");
+        Usuario admin = new Usuario("Adm", "12345678900", "adm@email.com", "Administrador", "adm", "123");
+        Usuario gerente = new Usuario("Gerente", "98765432100", "gerente@email.com", "Gerente", "gerente", "123");
+        Usuario colaborador = new Usuario("Colab", "55566677788", "colab@email.com", "Colaborador", "colab", "123");
 
         // Criando equipe
         Equipe equipe1 = new Equipe("Equipe Alpha", "Equipe responsável pelo desenvolvimento do sistema.");
